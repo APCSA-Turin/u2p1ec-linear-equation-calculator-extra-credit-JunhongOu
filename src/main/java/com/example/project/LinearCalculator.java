@@ -73,7 +73,7 @@ public class LinearCalculator{
         double y = y1; //x and y can be any coordinates that are being used
         double x = x1;
         double m = slope();    //calling the slope method
-        double b = y - (m*x);  //seperating the y-int from y = mx+b leads to b = y - mx
+        double b = y - (m*x);  //separating the y-int from y = mx+b leads to b = y - mx
         double yInt = roundedToHundredth(b); //rounds the y-int to the nearest hundredth
         if (m == -999.99){ 
             yInt = -999.99;
